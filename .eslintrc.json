@@ -1,0 +1,9 @@
+{
+  "extends": "@rocketseat/eslint-config/react",
+  "plugins": [
+    "safe-jsx"
+  ],
+  "rules": {
+    "safe-jsx/jsx-explicit-boolean": "error" // or "warn"
+  }
+}
